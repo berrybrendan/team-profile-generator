@@ -10,6 +10,8 @@ const idArray = [];
 
 const outputPath = path.resolve(__dirname, "output", "team.html");
 
+const render = require("./libraries/htmlRender");
+
 function appMenu() {
   function addIntern() {
     inquirer
